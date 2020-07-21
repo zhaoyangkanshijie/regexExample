@@ -154,3 +154,14 @@
 
     ^[A-Za-z0-9]{0}$|^[A-Za-z0-9]{4}$
 
+11. url
+
+    ^(((ht|f)tps?):\/\/)?[\w-]+(\.[\w-]+)+([\w.,@?^=%&:/~+#-]*[\w@?^=%&/~+#-])?$
+
+    https://www.baidu.com www.baidu.com
+
+12. emoji表情
+
+    (\ud83c[\udf00-\udfff])|(\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55]
+
+    🌏
